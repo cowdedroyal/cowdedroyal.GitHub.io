@@ -2,24 +2,20 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>二分法代码 | Gridea</title>
+<title>论文盘点：面部动作编码系统（FACS）识别 | Gridea</title>
 <link rel="shortcut icon" href="https://cowdedroyal.GitHub.io/favicon.ico?v=1654234144469">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cowdedroyal.GitHub.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="二分法代码 | Gridea - Atom Feed" href="https://cowdedroyal.GitHub.io/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="论文盘点：面部动作编码系统（FACS）识别 | Gridea - Atom Feed" href="https://cowdedroyal.GitHub.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="#include &lt;stdio.h&gt;
-fun(int a[],int n,int key)
-{
-	int low,high,mid;
-	low = 0;
-	high = n-1;
-	while(low&lt;=high)
-	{
-..." />
+    <meta name="description" content="
+研究方向｜GAN图像生成、情绪对抗样本生成
+
+引言
+区域学习（RL）和多标记学习（ML）在人脸动作单元（AU）检测领域受到越来越多的关注。由于 AUs 在面部稀疏区域是活跃的，RL 旨在识别这些区域以获得更好的特异性。另一方面，一个关于 ..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -82,7 +78,7 @@ fun(int a[],int n,int key)
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              二分法代码
+              论文盘点：面部动作编码系统（FACS）识别
             </h2>
             <div class="post-info">
               <span>
@@ -96,37 +92,14 @@ fun(int a[],int n,int key)
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <pre><code class="language-c">#include &lt;stdio.h&gt;
-fun(int a[],int n,int key)
-{
-	int low,high,mid;
-	low = 0;
-	high = n-1;
-	while(low&lt;=high)
-	{
-		mid=(low+high)/2;
-		if(key &lt; a[mid])
-		high =mid-1;
-		else if(key &gt; a[mid])
-		low = mid+1;
-		else
-		return mid;
-	}
-	return -1;
-}
-main() 
-{
-int a[10]={1,2,3,4,5,6,7,8,9,10};
-int b,c;
-b=4;
-c=fun(a,10,b);
-if(c==1)
-printf(&quot;not Found&quot;);
-else
-printf(&quot;position %d\n&quot;,c);
-return 0; 
-}
-</code></pre>
+                <figure data-type="image" tabindex="1"><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pbWctYmxvZy5jc2RuaW1nLmNuL2ltZ19jb252ZXJ0L2Y2NjAwNjk1YTE5ZjBiNTc1YjRiNjk0NmFlZWY0NmE0LmdpZg" alt="" loading="lazy"></figure>
+<p>研究方向｜GAN图像生成、情绪<a href="https://so.csdn.net/so/search?q=%E5%AF%B9%E6%8A%97%E6%A0%B7%E6%9C%AC&amp;spm=1001.2101.3001.7020">对抗样本</a>生成</p>
+<figure data-type="image" tabindex="2"><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pbWctYmxvZy5jc2RuaW1nLmNuL2ltZ19jb252ZXJ0L2IyYTZmODgzYmMwYmI2YTZjYzUzN2I4NmUzOWI2OWZiLnBuZw?x-oss-process=image/format,png" alt="" loading="lazy"></figure>
+<p>引言</p>
+<p>区域学习（RL）和多标记学习（ML）在人脸动作单元（AU）检测领域受到越来越多的关注。由于 AUs 在面部稀疏区域是活跃的，RL 旨在识别这些区域以获得更好的特异性。另一方面，一个关于 AU 相关性的强有力的统计证据表明 ML 是一种自然的方法来模拟探测任务。</p>
+<figure data-type="image" tabindex="3"><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pbWctYmxvZy5jc2RuaW1nLmNuL2ltZ19jb252ZXJ0L2MzMTQ3MGMyZTgzYzlmMjM0NzcxMTZlZmU2ODMyNDRkLnBuZw?x-oss-process=image/format,png" alt="" loading="lazy"></figure>
+<p>FACS介绍</p>
+<p>FACS (Facial Action Coding System) 即面部行为编码系统，它特指一组面部肌肉运动状态。本文整理的是第一次出版于 1978 年的 FACS，在2002 年 FACS 又进行了一些实质性的更新。通过使用面部行为编码系统可以对情绪进行分析。本文详细的整理了面部行为编码对应的编号，主要可以分为三大类主要运动单元编码，头部运动单元编码和眼睛运动单元编码，如下图（[FC]）和（[HE]）所示。</p>
 
               </div>
               <div class="toc-container">
@@ -139,9 +112,9 @@ return 0;
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://cowdedroyal.GitHub.io/post/hello-gridea/">
+            <a href="https://cowdedroyal.GitHub.io/post/er-fen-fa-dai-ma/">
               <h3 class="post-title">
-                Hello Gridea
+                二分法代码
               </h3>
             </a>
           </div>
