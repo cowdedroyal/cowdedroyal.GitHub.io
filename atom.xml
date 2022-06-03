@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cowdedroyal.GitHub.io</id>
     <title>Gridea</title>
-    <updated>2022-06-03T05:17:59.253Z</updated>
+    <updated>2022-06-03T05:29:07.990Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cowdedroyal.GitHub.io"/>
     <link rel="self" href="https://cowdedroyal.GitHub.io/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://cowdedroyal.GitHub.io/images/avatar.png</logo>
     <icon>https://cowdedroyal.GitHub.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[论文盘点：面部动作编码系统（FACS）识别]]></title>
+        <id>https://cowdedroyal.GitHub.io/post/lun-wen-pan-dian-mian-bu-dong-zuo-bian-ma-xi-tong-facsshi-bie/</id>
+        <link href="https://cowdedroyal.GitHub.io/post/lun-wen-pan-dian-mian-bu-dong-zuo-bian-ma-xi-tong-facsshi-bie/">
+        </link>
+        <updated>2022-06-03T05:28:10.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pbWctYmxvZy5jc2RuaW1nLmNuL2ltZ19jb252ZXJ0L2Y2NjAwNjk1YTE5ZjBiNTc1YjRiNjk0NmFlZWY0NmE0LmdpZg" alt="" loading="lazy"></figure>
+<p>研究方向｜GAN图像生成、情绪<a href="https://so.csdn.net/so/search?q=%E5%AF%B9%E6%8A%97%E6%A0%B7%E6%9C%AC&amp;spm=1001.2101.3001.7020">对抗样本</a>生成</p>
+<figure data-type="image" tabindex="2"><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pbWctYmxvZy5jc2RuaW1nLmNuL2ltZ19jb252ZXJ0L2IyYTZmODgzYmMwYmI2YTZjYzUzN2I4NmUzOWI2OWZiLnBuZw?x-oss-process=image/format,png" alt="" loading="lazy"></figure>
+<p>引言</p>
+<p>区域学习（RL）和多标记学习（ML）在人脸动作单元（AU）检测领域受到越来越多的关注。由于 AUs 在面部稀疏区域是活跃的，RL 旨在识别这些区域以获得更好的特异性。另一方面，一个关于 AU 相关性的强有力的统计证据表明 ML 是一种自然的方法来模拟探测任务。</p>
+<figure data-type="image" tabindex="3"><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pbWctYmxvZy5jc2RuaW1nLmNuL2ltZ19jb252ZXJ0L2MzMTQ3MGMyZTgzYzlmMjM0NzcxMTZlZmU2ODMyNDRkLnBuZw?x-oss-process=image/format,png" alt="" loading="lazy"></figure>
+<p>FACS介绍</p>
+<p>FACS (Facial Action Coding System) 即面部行为编码系统，它特指一组面部肌肉运动状态。本文整理的是第一次出版于 1978 年的 FACS，在2002 年 FACS 又进行了一些实质性的更新。通过使用面部行为编码系统可以对情绪进行分析。本文详细的整理了面部行为编码对应的编号，主要可以分为三大类主要运动单元编码，头部运动单元编码和眼睛运动单元编码，如下图（[FC]）和（[HE]）所示。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[二分法代码]]></title>
         <id>https://cowdedroyal.GitHub.io/post/er-fen-fa-dai-ma/</id>
