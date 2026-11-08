@@ -1,0 +1,1 @@
+{"changes":[],"counts":[],"run":{"agent":"claude-code","finished_at":"2026-10-21T08:11:00.964969+00:00","id":"r_20261021_gfg3b9","intent":"maintain: 把跨学科概念移入独立方向","started_at":"2026-10-21T08:06:07.856944+00:00","status":"reverted","summary":"新建跨学科基础方向（计算机系统、决策与经济学），把虚拟内存、推测执行、循环分块、古德哈特定律、前景理论、蒙特卡洛树搜索从 LLM 子方向移入，与 LLM 的联系由 analogous_to 表达。"}}
